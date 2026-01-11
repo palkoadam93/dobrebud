@@ -11,21 +11,6 @@ header{
     padding: 3rem;
     color: yellow;
     font-size: 2rem;
-}
-header h1 {
-    font-size: 80px;
-    font-weight: 800;
-
-    background-image: url("ai-generated-8867688_1920.jpg");
-    background-attachment: fixed;
-
-    background-size: cover;
-    background-position: center;
-
-    color: transparent;                 /* a szöveg színe eltűnik */
-    -webkit-background-clip: text;      /* Chrome, Safari */
-    background-clip: text;              /* szabvány */
-
     font-family: "Boldonse";
 }
 
