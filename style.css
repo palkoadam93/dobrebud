@@ -47,7 +47,6 @@ nav a:hover {
 
 /* MAIN *********************************************************/
 main {
-
     background-image: url('wall-1884019_1920.jpg');
     background-attachment: fixed;
 }
@@ -97,8 +96,8 @@ article {
 /* END MAIN *****************************************************/
 
 footer {
-    background: navy;
-    color: #fff;
+    background: rgba(255, 255, 255, 0.7);
+    color: black;
     padding: 1.5rem 15% 1.5rem 15%;
 }
 
@@ -111,7 +110,8 @@ footer {
 
 .footer-item i {
     font-size: 20px;
-    color: #f39c12;
+    /*color: #f39c12;*/
+    color:darkblue;
 }
 
 
