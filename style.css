@@ -1,16 +1,12 @@
 body{
-    background-image: url('wall-1884019_1920.jpg');
-    background-attachment: fixed;
-
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
     margin: 0;
     padding: 0;
 }
 header{
-    /*background-color: royalblue;*/
     background-image: url('construction-site-285645_1920.jpg');
     background-position: center;
+    opacity: 0.8;
 
     padding: 1.5rem 15% 1.5rem 15%;
     color: yellow;
@@ -51,13 +47,17 @@ nav a:hover {
 
 /* MAIN *********************************************************/
 main {
-    width: 70%;
-    margin: auto;
+
+    background-image: url('wall-1884019_1920.jpg');
+    background-attachment: fixed;
 }
 
 article {
+    width: 70%;
+    margin: auto;
+
     display: flex;
-    width: 100%;
+    /*width: 100%;*/
     /*margin-bottom: 40px;*/
     border-bottom: 1px solid #ccc;
 }
@@ -99,7 +99,7 @@ article {
 footer {
     background: navy;
     color: #fff;
-    padding: 40px;
+    padding: 1.5rem 15% 1.5rem 15%;
 }
 
 .footer-item {
