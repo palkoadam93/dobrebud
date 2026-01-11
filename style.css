@@ -1,5 +1,5 @@
 body{
-    background-image: url('ai-generated-8867688_1920.jpg');
+    background-image: url('wall-1884019_1920.jpg');
     background-attachment: fixed;
 
     width: 70%;
@@ -7,11 +7,11 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
-    background-color: navy;
+    background-color: royalblue;
     padding: 3rem;
     color: yellow;
     font-size: 2rem;
-    font-family: "Boldonse";
+    font-family: "Young Serif", serif;
 }
 
 /* MENÜ ***************************************************/
@@ -77,6 +77,24 @@ article {
 }
 
 /* END MAIN *****************************************************/
+
+footer {
+    background: navy;
+    color: #fff;
+    padding: 40px;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.footer-item i {
+    font-size: 20px;
+    color: #f39c12;
+}
 
 
 
