@@ -120,7 +120,7 @@ footer {
 
 /* RESPONSIVE ****************************************************/
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
 
     main, nav div {width: 100%;}
 
