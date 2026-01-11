@@ -1,14 +1,32 @@
 body{
-    background-image: url('brick-wall-3170274_1920.jpg');
+    background-image: url('ai-generated-8867688_1920.jpg');
+    background-attachment: fixed;
+
     width: 70%;
     margin: auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
-    background-color: coral;
+    background-color: navy;
     padding: 3rem;
     color: yellow;
     font-size: 2rem;
+}
+header h1 {
+    font-size: 80px;
+    font-weight: 800;
+
+    background-image: url("ai-generated-8867688_1920.jpg");
+    background-attachment: fixed;
+
+    background-size: cover;
+    background-position: center;
+
+    color: transparent;                 /* a szöveg színe eltűnik */
+    -webkit-background-clip: text;      /* Chrome, Safari */
+    background-clip: text;              /* szabvány */
+
+    font-family: "Boldonse";
 }
 
 /* MENÜ ***************************************************/
@@ -23,7 +41,7 @@ nav a {
     text-decoration: none;
     background: #eee;
     border: 1px solid #ccc;
-    color: coral;
+    color: navy;
     font-weight: bold;
 }
 
@@ -37,13 +55,9 @@ nav a:hover {
 article {
     display: flex;
     width: 100%;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
+    border-bottom: 1px solid #ccc;
 }
-
-/* váltakozás 
-article:nth-child(even) {
-    flex-direction: row-reverse;
-}*/
 
 /* méretek */
 .sm {
@@ -86,6 +100,9 @@ article {
 /* RESPONSIVE ****************************************************/
 
 @media (max-width: 768px) {
+
+    body {width: 100%;}
+
     article {
         flex-direction: column;
     }
