@@ -2,29 +2,43 @@ body{
     background-image: url('wall-1884019_1920.jpg');
     background-attachment: fixed;
 
-    width: 70%;
-    margin: auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin: 0;
+    padding: 0;
 }
 header{
-    background-color: royalblue;
-    padding: 3rem;
+    /*background-color: royalblue;*/
+    background-image: url('construction-site-285645_1920.jpg');
+    background-position: center;
+
+    padding: 1.5rem 15% 1.5rem 15%;
     color: yellow;
-    font-size: 2rem;
-    font-family: "Young Serif", serif;
+    font-size: 3rem;
+    /*font-family: "League Spartan", sans-serif;*/
+    font-family: "Saira Condensed", sans-serif;
 }
 
 /* MENÜ ***************************************************/
 nav {
-    display: flex;
+    width: 100%;            /* teljes szélesség */
+    display: flex;          /* egymás mellé teszi a linkeket */
+    justify-content: center; /* középre rendezi a gyerekeket */
+
+    background: #eee;
+}
+
+nav div {
+    width: 70%;             /* a menük doboza */
+    display: flex;          /* egymás mellé rendezi az <a>-kat */
 }
 
 nav a {
     flex: 1;              /* azonos szélesség */
     text-align: center;   /* szöveg középre */
-    padding: 10px;
+    padding: 10px 0;
     text-decoration: none;
-    background: #eee;
+    
     border: 1px solid #ccc;
     color: navy;
     font-weight: bold;
@@ -36,6 +50,10 @@ nav a:hover {
 /* END MENÜ ***************************************************/
 
 /* MAIN *********************************************************/
+main {
+    width: 70%;
+    margin: auto;
+}
 
 article {
     display: flex;
@@ -104,7 +122,7 @@ footer {
 
 @media (max-width: 768px) {
 
-    body {width: 100%;}
+    main, nav div {width: 100%;}
 
     article {
         flex-direction: column;
