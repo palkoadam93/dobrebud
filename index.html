@@ -1,76 +1,105 @@
+<!DOCTYPE html>
 <html lang="hu">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>DOBREBUD Kft.</title>
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <link rel="icon" type="image/png" href="house.png">
-  </head>
-  <body>
-    <header>
-      <h1>DOBREBUD Építőipari Kft.</h1>
-    </header>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STRUKTÚRA Építőipari Kft.</title>
+<meta name="description" content="Generálkivitelezés, szerkezetépítés és felújítás egy kézben.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#"><span class="logo-mark">S</span> STRUKTÚRA</a>
     <nav>
-      <div>
-        <a href="#">Rólunk</a>
-        <a href="#">Portfólió</a>
-        <a href="#">Kapcsolat</a>
-        <a href="#">Partnereink</a>
-      </div>
+      <a href="#szolgaltatasok">Szolgáltatások</a>
+      <a href="#referenciak">Referenciák</a>
+      <a href="#rolunk">Rólunk</a>
+      <a href="#kapcsolat">Kapcsolat</a>
     </nav>
+    <a class="nav-btn" href="#kapcsolat">Ajánlatot kérek</a>
+  </div>
+</header>
 
-    <main>
-      <article>
-        <div class="lg">
-          <h2>Kik vagyunk?</h2>
-          <p>A DOBREBUD Építőipari Kft. egy dinamikusan fejlődő, magyar tulajdonú vállalkozás, amely magas szintű szakmai tapasztalattal rendelkezik az építőipar minden területén. Csapatunk elkötelezett, precíz és innovatív megoldásokkal dolgozik ügyfeleink elégedettsége érdekében.</p>
-        </div>
-        <div class="sm">
-          <img src="worker-8463424_1280.jpg" alt="worker-8463424_1280">
-        </div>
-      </article>
-      <article>
-        <div class="sm">
-          <img src="cranes-3703469_1280.jpg" alt="cranes-3703469_1280">
-        </div>
-        <div class="lg">
-          <h2>Mivel foglalkozunk?</h2>
-          <p>Cégünk teljes körű építési szolgáltatásokat nyújt, beleértve az épületépítést, generálkivitelezést, felújítást, korszerűsítést és ipari beruházásokat. Mindig a minőséget, a határidők betartását és a költséghatékonyságot tartjuk szem előtt.</p>
-        </div>
-      </article>
-      <article>
-        <div class="lg">
-          <h2>Portfóliónk</h2>
-          <p>Portfóliónkban megtalálhatók lakóépületek, iroda- és ipari létesítmények, valamint felújított műemléképületek. Minden projektünket magas szakmai színvonalon, az ügyfelek igényeit maximálisan szem előtt tartva valósítjuk meg, referencia munkáink bizonyítják szakértelmünket és megbízhatóságunkat.</p>
-        </div>
-        <div class="sm">
-          <img src="building-9114701_1280.jpg" alt="building-9114701_1280">
-        </div>
-      </article>
+<main>
+<section class="hero">
+  <div class="container hero-content">
+    <div class="kicker">Építünk. Megoldunk. Átadunk.</div>
+    <h1>Amire építhet,<br>az mi vagyunk.</h1>
+    <p>Generálkivitelezés és építőipari megoldások családi házaktól ipari projektekig. Egy felelős partner a tervezéstől az utolsó simításig.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#kapcsolat">Kérjen ajánlatot →</a>
+      <a class="btn btn-secondary" href="#referenciak">Referenciáink</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong>18+</strong><span>év tapasztalat</span></div>
+      <div class="stat"><strong>240+</strong><span>átadott projekt</span></div>
+      <div class="stat"><strong>98%</strong><span>ügyfélelégedettség</span></div>
+    </div>
+  </div>
+</section>
 
-      <footer>
-        <div class="footer-item">
-          <i class="fa-solid fa-phone"></i>
-          <span>+36 30 123 4567</span>
-        </div>
+<section class="services" id="szolgaltatasok">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">Mit vállalunk?</div><h2>Komplexen<br>gondolkodunk.</h2></div>
+      <p class="section-intro">Nem különálló szakágakat adunk el. A teljes építési folyamatot fogjuk össze, átláthatóan, határidőre és egy kézben tartva.</p>
+    </div>
+    <div class="service-grid">
+      <article class="service"><div class="icon">01</div><h3>Generálkivitelezés</h3><p>A projekt teljes koordinációja a bontástól és alapozástól a kulcsrakész átadásig.</p></article>
+      <article class="service"><div class="icon">02</div><h3>Szerkezetépítés</h3><p>Megbízható szerkezetek, precíz kivitelezés és korszerű technológiák lakó- és ipari épületekhez.</p></article>
+      <article class="service"><div class="icon">03</div><h3>Felújítás</h3><p>Komplett épületfelújítás, energetikai korszerűsítés és belső terek újragondolása.</p></article>
+      <article class="service"><div class="icon">04</div><h3>Projektmenedzsment</h3><p>Ütemezés, alvállalkozói koordináció, költségkontroll és folyamatos megrendelői tájékoztatás.</p></article>
+      <article class="service"><div class="icon">05</div><h3>Tervezés & előkészítés</h3><p>Megvalósíthatóság, költségbecslés és műszaki előkészítés már a projekt elején.</p></article>
+      <article class="service"><div class="icon">06</div><h3>Üzemeltetés</h3><p>Az átadás után sem tűnünk el: garanciális ügyintézés és hosszú távú támogatás.</p></article>
+    </div>
+  </div>
+</section>
 
-        <div class="footer-item">
-          <i class="fa-solid fa-envelope"></i>
-          <span>info@pelda.hu</span>
-        </div>
+<section class="projects" id="referenciak">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">Munkáink</div><h2>Amiről beszélnek<br>a falak.</h2></div>
+      <p class="section-intro">Néhány projektünk, ahol a műszaki precizitás és a jó építészet találkozott.</p>
+    </div>
+    <div class="project-grid">
+      <div class="project" style="background-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85')"><div class="project-info"><small>Budapest · Lakóépület</small><h3>Hársfa Residence</h3></div></div>
+      <div class="project" style="background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=85')"><div class="project-info"><small>Iroda · Generálkivitelezés</small><h3>Váci Corner</h3></div></div>
+      <div class="project" style="background-image:url('https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=1000&q=85')"><div class="project-info"><small>Ipari · Szerkezetépítés</small><h3>North Hub</h3></div></div>
+    </div>
+  </div>
+</section>
 
-        <div class="footer-item">
-          <i class="fa-solid fa-location-dot"></i>
-          <span>Budapest, Magyarország</span>
-        </div>
-      </footer>
-    </main>
-  </body>
+<section id="rolunk">
+  <div class="container about">
+    <div class="about-img"></div>
+    <div class="about-copy">
+      <div class="eyebrow">Rólunk</div>
+      <h2>Nem csak épületet adunk át.</h2>
+      <p>A STRUKTÚRA több mint egy kivitelező cég. Olyan partnerek vagyunk, akiknek ugyanannyira fontos a végeredmény, mint az út, ami odáig vezet.</p>
+      <p>Tapasztalt szakemberek, ellenőrzött partnerek és egy egyszerű alapelv: amit vállalunk, azt megépítjük.</p>
+      <div class="checks">
+        <div class="check"><b>✓</b> Átlátható költségek és ütemezés</div>
+        <div class="check"><b>✓</b> Egy kapcsolattartó az egész projektre</div>
+        <div class="check"><b>✓</b> Minőségi anyagok, garanciális háttér</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="kapcsolat">
+  <div class="container contact-inner">
+    <div><div class="eyebrow">Kezdjük el</div><h2>Van egy projektje?<br>Építsük meg együtt.</h2></div>
+    <a class="btn" href="mailto:hello@struktura-epito.hu">hello@struktura-epito.hu&nbsp; →</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <span>© 2026 STRUKTÚRA Építőipari Kft.</span>
+    <span>Budapest · +36 30 123 4567 · hello@struktura-epito.hu</span>
+  </div>
+</footer>
+</body>
 </html>
